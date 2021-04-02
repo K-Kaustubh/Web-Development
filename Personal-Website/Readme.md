@@ -1,13 +1,13 @@
-Angela Yu Web Development - Personal Website
+#Angela Yu Web-Development : Personal-Website#
 
-About
+**About**
 
 This project is made with reference of Angela Yu (Personal Website) project.
 
 I have implemented some changes in this according to my choice so it's not the same as the instructor taught in the course.
 
 
-Technical Information
+**Technical Information**
 
 To run the site on your local machine
 
@@ -18,3 +18,6 @@ To run the site on your local machine
     
 
 
+**Website Image**
+
+![](images/Picture.png)
