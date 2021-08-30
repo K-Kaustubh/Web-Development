@@ -8,6 +8,6 @@ A beautiful, custom landing page for a Travel website using HTML, CSS and a litt
 
 **Website Image**
 
-![](images/Capture.png)
+![](/Capture.png)
 
 [Visit Website](https://travel-website-rho.vercel.app/)
