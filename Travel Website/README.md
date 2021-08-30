@@ -1,3 +1,13 @@
-# Web-Development
+#Travel Website
 
-You can visit the respective folders above to see the projects. 
+A beautiful, custom landing page for a Travel website using HTML, CSS and a little JavaScript
+
+
+**Repository**
+[](https://github.com/K-Kaustubh/Travel-Website/)
+
+**Website Image**
+
+![](images/Capture.png)
+
+[Visit Website](https://travel-website-rho.vercel.app/)
