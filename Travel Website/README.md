@@ -1,6 +1,8 @@
 # Travel Website
 
-A beautiful, custom landing page for a Travel website using HTML, CSS and a little JavaScript
+A beautiful, custom landing page for a Travel website using HTML, CSS and a little JavaScript.
+
+In this project i have used a video loop for background.
 
 
 **Repository**
