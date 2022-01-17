@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/css/bootstrap-datetimepicker.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+    />
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      $(document).ready(function () {
+        var daysToAdd = 4;
+        $("#depart").datepicker({
+          dateFormat: "dd-mm-yy",
+          changeMonth: true,
+          changeYear: true,
+          maxDate: "1W",
+          minDate: "0W",
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="panel panel-primary">
+        <div class="panel-heading text-center">Schedule an Appointment</div>
+        <div class="panel-body">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label">First Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="fname"
+                  id="fname"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label">Last Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="lname"
+                  id="lname"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label">Email</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  name="email"
+                  id="email"
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label class="control-label">Appointment Date</label>
+                <input
+                  class="form-control"
+                  type="text"
+                  placeholder="Depart Date"
+                  id="depart"
+                />
+              </div>
+            </div>
+          </div>
+          <input type="submit" class="btn btn-primary" value="Submit" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
